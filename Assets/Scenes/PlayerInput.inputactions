@@ -33,7 +33,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "New action3",
+                    "name": "W",
                     "type": "Button",
                     "id": "3d1fcc52-b714-4148-ae31-e0d1bf7be832",
                     "expectedControlType": "Button",
@@ -88,11 +88,11 @@
                 {
                     "name": "",
                     "id": "eb6a72de-b4ae-46f4-9db4-43dc6bb8ed6f",
-                    "path": "",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action3",
+                    "action": "W",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

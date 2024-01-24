@@ -6,6 +6,12 @@ using UnityEngine.AI;
 public class Player : MonoBehaviour
 {
     public GameObject destination;
+    public enum playerState
+    {
+        idle,
+
+    }
+
     private NavMeshAgent _agent;
 
     void Awake()

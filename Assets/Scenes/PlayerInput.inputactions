@@ -1,0 +1,114 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "e5d7bbec-32a1-49ba-968f-69f20a584ad4",
+            "actions": [
+                {
+                    "name": "RightButtonMouse",
+                    "type": "Button",
+                    "id": "87fd7248-e29a-452d-961a-e2f76fb3e409",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftButtonMouse",
+                    "type": "Button",
+                    "id": "1aff0ad3-4302-49aa-9d34-824a75a0056b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Q",
+                    "type": "Button",
+                    "id": "e674a4cc-d125-479a-ab17-1aadd84cfabf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "New action3",
+                    "type": "Button",
+                    "id": "3d1fcc52-b714-4148-ae31-e0d1bf7be832",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "New action4",
+                    "type": "Button",
+                    "id": "6e281d55-c207-4359-bcc9-88c65a450d6d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ff921262-5b4e-4979-9765-3caba5c58d63",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightButtonMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5fe8122c-4918-437a-a007-75c8b467d9f0",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftButtonMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "340659f8-512f-4ef5-98b1-c29d29b2cb26",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Q",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb6a72de-b4ae-46f4-9db4-43dc6bb8ed6f",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de724109-b982-452a-984a-82f73638e08e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

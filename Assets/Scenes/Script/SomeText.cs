@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SomeText : MonoBehaviour
 {
+    public GameObject _player;
     private TextMeshProUGUI _textMeshProUGUI;
     void Awake()
     {
@@ -13,6 +14,7 @@ public class SomeText : MonoBehaviour
 
     void Update()
     {
-        _textMeshProUGUI.text = "";
+        var player = _player.GetComponent<Player>();
+        _textMeshProUGUI.text = player.qSkillCoolTime.ToString("F1");
     }
 }

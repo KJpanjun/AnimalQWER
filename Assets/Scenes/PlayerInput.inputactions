@@ -24,7 +24,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Q",
+                    "name": "SkillQ",
                     "type": "Button",
                     "id": "e674a4cc-d125-479a-ab17-1aadd84cfabf",
                     "expectedControlType": "Button",
@@ -33,7 +33,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "W",
+                    "name": "SkillW",
                     "type": "Button",
                     "id": "3d1fcc52-b714-4148-ae31-e0d1bf7be832",
                     "expectedControlType": "Button",
@@ -42,9 +42,36 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "New action4",
+                    "name": "SkillE",
                     "type": "Button",
                     "id": "6e281d55-c207-4359-bcc9-88c65a450d6d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SkillR",
+                    "type": "Button",
+                    "id": "8da65d00-1de7-4d8e-8763-b0269a1ed221",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Dance1",
+                    "type": "Button",
+                    "id": "a16b316f-1864-4fbe-98a4-8c516098b867",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Dance2",
+                    "type": "Button",
+                    "id": "b62061bb-899f-479f-96dd-da6342000acb",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -81,7 +108,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Q",
+                    "action": "SkillQ",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -92,18 +119,51 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "W",
+                    "action": "SkillW",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "de724109-b982-452a-984a-82f73638e08e",
-                    "path": "",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action4",
+                    "action": "SkillE",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f89cc60-3537-4f4c-9fa7-04c5a84a068e",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SkillR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8f54c596-d2d8-4cc9-a679-0111f3a3ac68",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dance1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "980cf033-e5fa-4244-a70e-758a940d4388",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dance2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name.Contains("Bullet"))
+        if (other.gameObject.name == "QSkillObject")
         {
             gameObject.SetActive(false);
         }

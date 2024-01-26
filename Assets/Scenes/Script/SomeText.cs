@@ -15,6 +15,6 @@ public class SomeText : MonoBehaviour
     void Update()
     {
         var player = _player.GetComponent<Player>();
-        _textMeshProUGUI.text = player.qSkillCoolTime.ToString("F1");
+        _textMeshProUGUI.text = player.eSkillCoolTime.ToString("F1");
     }
 }
